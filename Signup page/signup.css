@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color:#7B3F00;
+}
+.total{
+    width: 500px;
+    margin:100px auto;
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    padding: 10px 20px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.total h1{
+    color: rgb(12, 55, 212);
+    text-align: center;
+}
+.total label{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: .8em;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 5px 0px 15px;
+
+}
+input:focus{
+   background-color: rgb(34, 242, 34);
+   color: white;
+}
+.btn{
+    text-align: center;
+}
+.btn button{
+    background-color: rgb(47, 133, 180);
+    font-size: 20px;
+    color: white;
+    padding: 8px 15px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 2%;
+}
+.checkbox{
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+}
+.checkbox input{
+transform: scale(1.5);
+}
